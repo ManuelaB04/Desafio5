@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Lobster";
+  src: url(/scr/letras/Lobster-Regular.ttf);
+}
+.body .header .section .titulo {
+  background-color: #DF3448;
+  font-family: "Lobster";
+  color: #F1FAEE;
+  text-align: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  position: fixed;
+  margin: 0px 0px 60px 0px;
+  padding: 10px 0px 10px 0px;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  text-shadow: -1px 1px 5px #6A140F;
+}
+
+.body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body .main .section {
+  background-color: #acdadc;
+  font-family: "Lobster";
+  color: black;
+  text-align: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  position: static;
+  margin-top: 90px;
+  width: 80vw;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 30%;
+  padding-bottom: 110px;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: scroll;
+  box-shadow: -3px -3px 10px #355354;
+}
+
+.body .main .section .subtitulo {
+  color: #df3448;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.body .main .section .parrafo1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.body .main .section .parrafo2 {
+  font-style: italic;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: left;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+.body .main .section .subtitulo {
+  color: #df3448;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.body .main .section .parrafo3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.body .main .section .parrafo4 {
+  font-style: italic;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: left;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+p::first-letter {
+  color: #0E255C;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.body .footer .img {
+  width: 60%;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: scroll;
+  margin-bottom: 300px;
+}
+
+.html {
+  margin: 0;
+  padding: 0;
+  background-color: #4C7B9D;
+  background-size: 100%;
+  background-image: url("/public/images/ciudad.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  font-size: 18px;
+}/*# sourceMappingURL=styles.css.map */

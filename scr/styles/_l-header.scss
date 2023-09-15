@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url(/scr/letras/Lobster-Regular.ttf);
+}
+
+.body .header .section .titulo{
+    background-color: #DF3448;
+    font-family: 'Lobster';
+    color: #F1FAEE;
+    text-align: center;
+    text-align-last: center;
+    position: fixed;
+    margin: 0px 0px 60px 0px;
+    padding: 10px 0px 10px 0px;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    text-shadow: -1px 1px 5px #6A140F;
+}
